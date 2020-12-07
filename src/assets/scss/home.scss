@@ -1,0 +1,19 @@
+#home-page {
+    background-color: #161515;
+    .card-module {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: #333;
+        transition: ease-in-out .5s;
+        &:hover{
+            cursor: pointer;
+            color: #9411d6;
+        }
+        h3 {
+            margin-top: 32px;
+        }
+        i {
+            font-size: 55px;
+        }
+    }
+}

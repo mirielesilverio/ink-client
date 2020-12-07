@@ -1,0 +1,62 @@
+@import './login.scss';
+@import './home.scss';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+#floating-alert {
+    background-color: #333 !important;
+    hr {
+        border: none !important;
+    }
+    p, button {
+        color: #fff !important;
+    }
+    button {
+        background-color: #5a6268 !important;
+        border-radius: 3px !important;
+    }
+}
+.container-fluid {
+    background-color: #161515;
+}
+.text-purple {
+    color: #760eaa;
+}
+.text-gray {
+    color: #333;
+}
+.bg-purple {
+    background-color: #9411d6 !important;
+}
+.bg-black {
+    background-color: #222121 !important;
+}
+.table-dark {
+    background-color: #161515;
+    thead {
+        background-color: #9411d6;
+    }
+}
+.btn-pimary {
+    color: #fff;
+    background-color: #9411d6;
+    border-color: #9411d6;
+    &:hover {
+        background-color: #760eaa;
+        border-color: #760eaa;
+        color: inherit;
+    }
+}
+input, textarea, .form-control {
+    background: #161515 !important;
+    border: none !important;
+    &:focus, &:active {
+        outline: 0;
+        box-shadow: none !important;
+    }
+}
+.card {
+    background: #262626;
+    color: #fff;
+}
